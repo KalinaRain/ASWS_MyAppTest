@@ -1,0 +1,5 @@
+E:\AndroidStudioProjects\ASWS_MyAppTest\sensor\build\intermediates\classes\debug
+E:\AndroidStudioProjects\ASWS_MyAppTest\sensor\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-cb10447873692aba9568aed84d7e86c149c59623.jar
+E:\AndroidStudioProjects\ASWS_MyAppTest\sensor\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-cd1ec5a70e0f2493d0f1697bc45d6f0e73e9a247.jar
+E:\AndroidStudioProjects\ASWS_MyAppTest\sensor\build\intermediates\pre-dexed\debug\classes-ee05e6f0c2a5aecf6ae27f395c5e4d66496229ef.jar
+E:\AndroidStudioProjects\ASWS_MyAppTest\sensor\build\intermediates\pre-dexed\debug\classes-c771330bc5d3a95629c5edce6a1a436199f75359.jar
