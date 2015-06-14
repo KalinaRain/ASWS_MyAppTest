@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">切水果</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="color_select">
+        <item>红色</item>
+        <item>蓝色</item>
+        <item>黑色</item>
+        <item>粉红色</item>
+    </string-array>
+    <string-array name="shape_select">
+        <item>正方形</item>
+        <item>矩形</item>
+        <item>园</item>
+        <item>椭圆</item>
+        <item>直线</item>
+        <item>随意</item>
+    </string-array>
+</resources>

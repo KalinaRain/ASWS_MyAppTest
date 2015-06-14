@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 发布时间和发布人 -->
+    <RelativeLayout
+        android:id="@+id/list_date_author"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:id="@+id/list_release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="默认日期"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:id="@+id/list_release_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="默认作者"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/list_title_content"
+        android:layout_width="match_parent"
+        android:layout_height="104dp" >
+        <!-- 标题栏 -->
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:lines="1"
+            android:layout_alignParentTop="true"
+            />
+        <!-- 帖子的主要内容 -->
+        <TextView
+            android:id="@+id/list_content_manual"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/list_title"
+            android:layout_marginTop="5dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

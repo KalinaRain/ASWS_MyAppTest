@@ -3,10 +3,14 @@ package com.learn.kalina.getallapp;
 import android.app.Application;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
+import android.media.Image;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,13 +20,18 @@ public class MainActivity extends ActionBarActivity {
 
     ArrayList<AppInfo> appLists = new ArrayList<AppInfo>();
     List<PackageInfo> packages = getPackageManager().getInstalledPackages(0);
-
+    private ListView listView;
+    private ImageView img_AppIcon;
+    private TextView appName;
+    private TextView packName;
+    private TextView tv_Open;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        onInit();
         for (int i = 0; i < packages.size(); i++) {
             PackageInfo packageInfo = packages.get(i);
             AppInfo appInfo = new AppInfo();
@@ -37,8 +46,18 @@ public class MainActivity extends ActionBarActivity {
                 //系统应用
             }
             appLists.add(appInfo);
+//            startActivity();
         }
+        listView.setAdapter(new MyBaseAdapter(MainActivity.this));
 
+    }
+
+    private void onInit() {
+        listView = (ListView) findViewById(R.id.listView);
+        img_AppIcon = (ImageView) findViewById(R.id.img_appIcon);
+        appName = (TextView) findViewById(R.id.appName);
+        packName = (TextView) findViewById(R.id.packageName);
+        tv_Open = (TextView) findViewById(R.id.tvOpen);
 
     }
 

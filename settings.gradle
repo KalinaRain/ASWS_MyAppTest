@@ -1,1 +1,1 @@
-include ':app', ':getallapp', ':sensor'
+include ':app', ':getallapp', ':sensor', ':myfruit', ':viewtest', ':ProtectionBox', ':myapplication', ':notificationtest'

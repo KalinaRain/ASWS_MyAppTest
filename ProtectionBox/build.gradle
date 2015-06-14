@@ -1,0 +1,36 @@
+//声明是Android程序
+apply plugin: 'com.android.application'
+
+android {
+    //编译sdk的版本
+    compileSdkVersion 21
+    //buildTools的版本
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        //应用的包名
+        applicationId "com.learn.protection"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            // 是否进行混淆
+            minifyEnabled false
+            // 混淆文件的位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //编译libs目录下的所有jar包
+    compile fileTree(dir: 'libs', include: ['*.jar'])// Local binary dependency
+    compile 'com.android.support:appcompat-v7:21.0.3'// Remote binary dependency
+    //编译extras目录下的ShimmerAndroid模块
+    //compile project(':extras:ShimmerAndroid')
+
+}

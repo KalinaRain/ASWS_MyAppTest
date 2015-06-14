@@ -162,7 +162,7 @@
     <!-- From: file:/E:/AndroidStudioProjects/ASWS_MyAppTest/sensor/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Sensor</string>
+    <string name="app_name">我的传感器</string>
     <string name="sensor_query">传感器查询</string>
     <!-- From: file:/E:/AndroidStudioProjects/ASWS_MyAppTest/sensor/src/main/res/values/styles.xml -->
     <eat-comment/>

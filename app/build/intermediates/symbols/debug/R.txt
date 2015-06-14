@@ -334,6 +334,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
 int drawable ic_launcher 0x7f020033
+int drawable iconfontshu 0x7f020034
 int id action_bar 0x7f080031
 int id action_bar_activity_content 0x7f080000
 int id action_bar_container 0x7f080030
@@ -351,10 +352,10 @@ int id action_settings 0x7f080043
 int id activity_chooser_view_content 0x7f080021
 int id always 0x7f080016
 int id beginning 0x7f080013
-int id button1 0x7f080040
-int id button2 0x7f080041
-int id button3 0x7f080042
-int id button_line 0x7f08003f
+int id bt_bind 0x7f080041
+int id bt_start 0x7f08003f
+int id bt_stop 0x7f080040
+int id bt_unbind 0x7f080042
 int id checkbox 0x7f080029
 int id collapseActionView 0x7f080017
 int id decor_content_parent 0x7f08002f
@@ -427,7 +428,8 @@ int layout abc_search_dropdown_item_icons_2line 0x7f030014
 int layout abc_search_view 0x7f030015
 int layout abc_simple_dropdown_hint 0x7f030016
 int layout activity_main 0x7f030017
-int layout support_simple_spinner_dropdown_item 0x7f030018
+int layout ll_activity 0x7f030018
+int layout support_simple_spinner_dropdown_item 0x7f030019
 int menu menu_main 0x7f0c0000
 int string abc_action_bar_home_description 0x7f0a0000
 int string abc_action_bar_home_description_format 0x7f0a0001
