@@ -168,7 +168,10 @@
     <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
     <string name="lockscreen_access_pattern_detected">Pattern completed</string>
     <string name="lockscreen_access_pattern_start">Pattern started</string>
-    <string name="tv_openapp">打开</string>
+    <string name="tv_allApp">所有的应用</string>
+    <string name="tv_nonsysApp">非系统应用</string>
+    <string name="tv_openApp">打开</string>
+    <string name="tv_sysApp">系统应用</string>
     <!-- From: file:/E:/AndroidStudioProjects/ASWS_MyAppTest/getallapp/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">

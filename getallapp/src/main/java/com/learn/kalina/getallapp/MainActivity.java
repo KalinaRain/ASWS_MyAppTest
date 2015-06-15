@@ -6,8 +6,11 @@ import android.content.pm.PackageInfo;
 import android.media.Image;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -18,12 +21,18 @@ import java.util.List;
 
 public class MainActivity extends ActionBarActivity {
 
+//    public static final String TAG = "GetAllApp";
     ArrayList<AppInfo> appLists = new ArrayList<AppInfo>();
-    List<PackageInfo> packages = getPackageManager().getInstalledPackages(0);
+    ArrayList<AppInfo> sysappLists = new ArrayList<AppInfo>();
+    ArrayList<AppInfo> nonsysappLists = new ArrayList<AppInfo>();
+    List<PackageInfo> packages;
     private ListView listView;
+    private Button bt_AllAPP;//所有应用
+    private Button bt_SysAPP;//系统应用
+    private Button bt_NonSysAPP;//非系统应用
     private ImageView img_AppIcon;
     private TextView appName;
-    private TextView packName;
+    private TextView packageName;
     private TextView tv_Open;
 
     @Override
@@ -40,27 +49,49 @@ public class MainActivity extends ActionBarActivity {
             appInfo.versionName = packageInfo.versionName;
             appInfo.versionCode = packageInfo.versionCode;
             appInfo.appIcon = packageInfo.applicationInfo.loadIcon(getPackageManager());
+            appLists.add(appInfo);//将该App的信息假如list中，以便后面取用
             if ((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) {
+                Log.d("a" + " flags:", packageInfo.applicationInfo.flags+"");
                 //非系统应用
+                nonsysappLists.add(appInfo);
             } else {
                 //系统应用
+                sysappLists.add(appInfo);
             }
-            appLists.add(appInfo);
+
 //            startActivity();
         }
-        listView.setAdapter(new MyBaseAdapter(MainActivity.this));
+        Log.d("系统应用的数量：", sysappLists.size()+"");
+        Log.d("非系统应用的数量：", nonsysappLists.size() + "");
+
+
+        listView.setAdapter(new MyBaseAdapter(MainActivity.this,nonsysappLists));
 
     }
 
     private void onInit() {
         listView = (ListView) findViewById(R.id.listView);
-        img_AppIcon = (ImageView) findViewById(R.id.img_appIcon);
-        appName = (TextView) findViewById(R.id.appName);
-        packName = (TextView) findViewById(R.id.packageName);
-        tv_Open = (TextView) findViewById(R.id.tvOpen);
+        bt_AllAPP = (Button) findViewById(R.id.bt_allApp);
+        bt_SysAPP = (Button) findViewById(R.id.bt_sysApp);
+        bt_NonSysAPP = (Button) findViewById(R.id.bt_nonSysApp);
+        bt_AllAPP.setOnClickListener(btClicklistener);
+        bt_SysAPP.setOnClickListener(btClicklistener);
+        bt_NonSysAPP.setOnClickListener(btClicklistener);
+
+        packages = getPackageManager().getInstalledPackages(0);
 
     }
 
+
+    View.OnClickListener btClicklistener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch (v.getId()) {
+                case R.id.bt_allApp:
+//                    listView.deferNotifyDataSetChanged();
+            }
+        }
+    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

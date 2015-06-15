@@ -12,22 +12,24 @@
         <Button
             android:id="@+id/bt_allApp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/tv_allApp"/>
         <Button
             android:id="@+id/bt_sysApp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/tv_sysApp"/>
         <Button
             android:id="@+id/bt_nonSysApp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/tv_nonsysApp"/>
     </LinearLayout>
     <ListView
         android:id="@+id/listView"
         android:layout_below="@id/ll_top"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"/>
 
-        </ListView>
 </RelativeLayout>
 <!-- From: file:/E:/AndroidStudioProjects/ASWS_MyAppTest/getallapp/src/main/res/layout/activity_main.xml -->

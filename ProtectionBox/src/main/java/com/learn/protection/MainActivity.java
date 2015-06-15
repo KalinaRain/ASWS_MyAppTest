@@ -2,6 +2,7 @@ package com.learn.protection;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.KeyguardManager;
 import android.net.http.AndroidHttpClient;
 import android.os.Message;
 import android.support.v7.app.ActionBarActivity;
@@ -56,6 +57,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 //            }
 //        }
 
+//        KeyguardManager;
 
         JSONArray as = new JSONArray();
         JSONObject jsonObject = new JSONObject();
