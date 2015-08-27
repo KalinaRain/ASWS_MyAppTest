@@ -17,4 +17,5 @@
         <item>直线</item>
         <item>随意</item>
     </string-array>
+    <string name="title_activity_second">SecondActivity</string>
 </resources>

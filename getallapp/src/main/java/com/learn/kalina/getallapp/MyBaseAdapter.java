@@ -62,7 +62,7 @@ public class MyBaseAdapter extends BaseAdapter {
         final AppInfo tmpAppInfo = lists.get(position);
         viewHolder.imgIcon.setImageDrawable(tmpAppInfo.appIcon);
         viewHolder.tvAppName.setText(tmpAppInfo.appName);
-        viewHolder.tvPackageName.setText(tmpAppInfo.packagName);
+        viewHolder.tvPackageName.setText("包名"+tmpAppInfo.packagName);
         if (tmpAppInfo.versionName == null) {
             viewHolder.tvVersionName.setText(tmpAppInfo.versionName);
         }

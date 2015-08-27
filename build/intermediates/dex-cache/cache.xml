@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\pre-dexed\debug\classes-448067d59655abe41920d2c17780f563111af367.jar" />
+    </item>
+    <item
         jar="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -28,6 +35,20 @@
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
         <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\pre-dexed\debug\classes-bb5a1bf78287dc64f9855a6b347456df66825fb6.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-d20517d5ab034d2fec9038c45c2cf25832ade265.jar" />
+    </item>
+    <item
+        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\pre-dexed\debug\classes-cb15c8f560b257d8c0d49dedd2d0b4a783fc6ff0.jar" />
     </item>
     <item
         jar="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"

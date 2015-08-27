@@ -1,6 +1,23 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+.gradle/
+build/
+
+# files for the dex VM
+*.dex
+
+#built application files
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+captures/
+
+# Windows thumbnail db
+Thumbs.db
+
+local.properties
+.idea/workspace.xml
+.idea/libraries
 .DS_Store
-/build
+

@@ -41,30 +41,30 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         onInit();
-        for (int i = 0; i < packages.size(); i++) {
-            PackageInfo packageInfo = packages.get(i);
-            AppInfo appInfo = new AppInfo();
-            appInfo.appName = packageInfo.applicationInfo.loadLabel(getPackageManager()).toString();
-            appInfo.packagName = packageInfo.packageName;
-            appInfo.versionName = packageInfo.versionName;
-            appInfo.versionCode = packageInfo.versionCode;
-            appInfo.appIcon = packageInfo.applicationInfo.loadIcon(getPackageManager());
-            appLists.add(appInfo);//将该App的信息假如list中，以便后面取用
-            if ((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) {
-                Log.d("a" + " flags:", packageInfo.applicationInfo.flags+"");
-                //非系统应用
-                nonsysappLists.add(appInfo);
-            } else {
-                //系统应用
-                sysappLists.add(appInfo);
-            }
+for (int i = 0; i < packages.size(); i++) {
+    PackageInfo packageInfo = packages.get(i);
+    AppInfo appInfo = new AppInfo();
+    appInfo.appIcon = packageInfo.applicationInfo.loadIcon(getPackageManager());//获取应用的图标
+    appInfo.appName = packageInfo.applicationInfo.loadLabel(getPackageManager()).toString();//获取应用名称
+    appInfo.packagName = packageInfo.packageName;//获取包名
+    appInfo.versionName = packageInfo.versionName;//获取版本名称
+    appInfo.versionCode = packageInfo.versionCode;//获取版本号
 
-//            startActivity();
-        }
+    appLists.add(appInfo);//将该App的信息假如list中，以便后面取用
+    if ((packageInfo.applicationInfo.flags & ApplicationInfo.FLAG_SYSTEM) == 0) {
+        Log.d("a" + " flags:", packageInfo.applicationInfo.flags+"");
+        //非系统应用
+        nonsysappLists.add(appInfo);
+    } else {
+        //系统应用
+        sysappLists.add(appInfo);
+    }
+
+}
         Log.d("系统应用的数量：", sysappLists.size()+"");
         Log.d("非系统应用的数量：", nonsysappLists.size() + "");
 
-
+        //默认是非系统应用
         listView.setAdapter(new MyBaseAdapter(MainActivity.this,nonsysappLists));
 
     }
@@ -88,7 +88,17 @@ public class MainActivity extends ActionBarActivity {
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.bt_allApp:
-//                    listView.deferNotifyDataSetChanged();
+                    listView.setAdapter(new MyBaseAdapter(MainActivity.this,appLists));
+                    listView.deferNotifyDataSetChanged();
+                    break;
+                case R.id.bt_sysApp:
+                    listView.setAdapter(new MyBaseAdapter(MainActivity.this,sysappLists));
+                    listView.deferNotifyDataSetChanged();
+                    break;
+                case R.id.bt_nonSysApp:
+                    listView.setAdapter(new MyBaseAdapter(MainActivity.this,nonsysappLists));
+                    listView.deferNotifyDataSetChanged();
+                    break;
             }
         }
     };

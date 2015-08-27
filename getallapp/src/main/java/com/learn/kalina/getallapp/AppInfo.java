@@ -12,11 +12,10 @@ public class AppInfo {
     public String versionName = "";
     public int versionCode=0;
     public Drawable appIcon=null;
+
     public void print(){
-        Log.d("myapps","Name:"+appName+" PackageName:"+packagName);
-        Log.d("myapps","Name:"+appName+" VersionName:"+versionName);
-        Log.d("myapps","Name:"+appName+" versioncode:"+versionCode);
+        Log.d("Myapps","Name:"+appName+" PackageName:"+packagName);
+        Log.d("Myapps","Name:"+appName+" VersionName:"+versionName);
+        Log.d("Myapps","Name:"+appName+" versioncode:"+versionCode);
     }
-
-
 }
