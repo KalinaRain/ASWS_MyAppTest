@@ -1,5 +1,0 @@
-E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\classes\debug
-E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-cb10447873692aba9568aed84d7e86c149c59623.jar
-E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c3d877b5dc5c7715df97a781e0d377f38bde2528.jar
-E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\pre-dexed\debug\classes-e5281854f1426a916b87dad1857f230dc0139bc6.jar
-E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\pre-dexed\debug\classes-0bba3f79a1f56d6486b946fc306a1c3f6bac67be.jar

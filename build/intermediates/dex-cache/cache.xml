@@ -9,32 +9,11 @@
         <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\pre-dexed\debug\classes-448067d59655abe41920d2c17780f563111af367.jar" />
     </item>
     <item
-        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\pre-dexed\debug\classes-e5281854f1426a916b87dad1857f230dc0139bc6.jar" />
-    </item>
-    <item
-        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\pre-dexed\debug\classes-58fd3a9b0730a262be71c99d91f19c3a03f41c91.jar" />
-    </item>
-    <item
         jar="C:\MySoftWare\AndroidDev\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-cb10447873692aba9568aed84d7e86c149c59623.jar" />
-    </item>
-    <item
-        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\pre-dexed\debug\classes-bb5a1bf78287dc64f9855a6b347456df66825fb6.jar" />
+        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-cb10447873692aba9568aed84d7e86c149c59623.jar" />
     </item>
     <item
         jar="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
@@ -49,27 +28,6 @@
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
         <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\myfruit\build\intermediates\pre-dexed\debug\classes-cb15c8f560b257d8c0d49dedd2d0b4a783fc6ff0.jar" />
-    </item>
-    <item
-        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\pre-dexed\debug\classes-0bba3f79a1f56d6486b946fc306a1c3f6bac67be.jar" />
-    </item>
-    <item
-        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\viewtest\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-3a1e623fa8b5c04adffa0eadaf299a10de2f9874.jar" />
-    </item>
-    <item
-        jar="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="E:\AndroidStudioProjects\ASWS_MyAppTest\getallapp\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c3d877b5dc5c7715df97a781e0d377f38bde2528.jar" />
     </item>
 
 </items>

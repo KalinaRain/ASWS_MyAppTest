@@ -3,4 +3,18 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="app_title">智能花盆WiFi控制系统</string>
+    <string name="tv_wifi_ip">WiFi模块IP：</string>
+    <string name="tv_net_port">网络端口：</string>
+    <string name="btn_connect_device">连接 wifi 设备</string>
+    <string name="tv_humidity">湿度</string>
+    <string name="btn_auto_control">自动控制</string>
+    <string name="btn_manual_control">手动控制</string>
+    <string name="btn_stop">停止</string>
+    <string name="tv_up_down">设置自动控制湿度上下限：</string>
+    <string name="tv_humidity_down">下限湿度：</string>
+    <string name="tv_humidity_up">上限湿度：</string>
+    <string name="btn_set">设置</string>
+    <string name="btn_start_water">开启手动浇水</string>
+    <string name="btn_close_water">关闭手动浇水</string>
 </resources>

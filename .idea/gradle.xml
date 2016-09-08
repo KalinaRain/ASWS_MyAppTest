@@ -5,9 +5,21 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="E:\android-studio\gradle\gradle-2.2.1" />
-        <option name="gradleJvm" value="1.8" />
+        <option name="gradleHome" value="F:\android_studio\gradle\gradle-2.14.1" />
         <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ProtectionBox" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/getallapp" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myfruit" />
+            <option value="$PROJECT_DIR$/notificationtest" />
+            <option value="$PROJECT_DIR$/sensor" />
+            <option value="$PROJECT_DIR$/viewtest" />
+          </set>
+        </option>
+        <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ProtectionBox" />
